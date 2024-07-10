@@ -1,0 +1,5102 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PingICMPProtocol",
+        "printedName": "PingICMPProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingDTO",
+                "printedName": "PTNetFramework.PingDTO",
+                "usr": "s:14PTNetFramework7PingDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16PingICMPProtocolP7execute7addressAA0C3DTOVSS_tF",
+            "mangledName": "$s14PTNetFramework16PingICMPProtocolP7execute7addressAA0C3DTOVSS_tF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.PingICMPProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.PingICMPProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework16PingICMPProtocolP",
+        "mangledName": "$s14PTNetFramework16PingICMPProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PingICMP",
+        "printedName": "PingICMP",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(pingService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingICMP",
+                "printedName": "PTNetFramework.PingICMP",
+                "usr": "s:14PTNetFramework8PingICMPC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PingServiceProtocol",
+                "printedName": "any PTNetFramework.PingServiceProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:14PTNetFramework19PingServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework8PingICMPC11pingServiceAcA0cF8Protocol_p_tcfc",
+            "mangledName": "$s14PTNetFramework8PingICMPC11pingServiceAcA0cF8Protocol_p_tcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingDTO",
+                "printedName": "PTNetFramework.PingDTO",
+                "usr": "s:14PTNetFramework7PingDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8PingICMPC7execute7addressAA0C3DTOVSS_tF",
+            "mangledName": "$s14PTNetFramework8PingICMPC7execute7addressAA0C3DTOVSS_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework8PingICMPC",
+        "mangledName": "$s14PTNetFramework8PingICMPC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PingICMPProtocol",
+            "printedName": "PingICMPProtocol",
+            "usr": "s:14PTNetFramework16PingICMPProtocolP",
+            "mangledName": "$s14PTNetFramework16PingICMPProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PageLoadTimerProtocol",
+        "printedName": "PageLoadTimerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework21PageLoadTimerProtocolP7execute7addressAA0cD3DTOVSS_tF",
+            "mangledName": "$s14PTNetFramework21PageLoadTimerProtocolP7execute7addressAA0cD3DTOVSS_tF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.PageLoadTimerProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.PageLoadTimerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework21PageLoadTimerProtocolP",
+        "mangledName": "$s14PTNetFramework21PageLoadTimerProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PageLoadTimer",
+        "printedName": "PageLoadTimer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadTimer",
+                "printedName": "PTNetFramework.PageLoadTimer",
+                "usr": "s:14PTNetFramework13PageLoadTimerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework13PageLoadTimerCACycfc",
+            "mangledName": "$s14PTNetFramework13PageLoadTimerCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework13PageLoadTimerC7execute7addressAA0cD3DTOVSS_tF",
+            "mangledName": "$s14PTNetFramework13PageLoadTimerC7execute7addressAA0cD3DTOVSS_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework13PageLoadTimerC",
+        "mangledName": "$s14PTNetFramework13PageLoadTimerC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PageLoadTimerProtocol",
+            "printedName": "PageLoadTimerProtocol",
+            "usr": "s:14PTNetFramework21PageLoadTimerProtocolP",
+            "mangledName": "$s14PTNetFramework21PageLoadTimerProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PageLoadDTO",
+        "printedName": "PageLoadDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11PageLoadDTOV4dataSSvp",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV4dataSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV4dataSSvg",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV4dataSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV4dataSSvs",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV4dataSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV4dataSSvM",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV4dataSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11PageLoadDTOV6statusSSvp",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV6statusSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV6statusSSvg",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV6statusSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV6statusSSvs",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV6statusSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV6statusSSvM",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV6statusSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11PageLoadDTOV10statusCodeSivp",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV10statusCodeSivp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV10statusCodeSivg",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV10statusCodeSivg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV10statusCodeSivs",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV10statusCodeSivs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV10statusCodeSivM",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV10statusCodeSivM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseTime",
+            "printedName": "responseTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11PageLoadDTOV12responseTimeSdvp",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV12responseTimeSdvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV12responseTimeSdvg",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV12responseTimeSdvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV12responseTimeSdvs",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV12responseTimeSdvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV12responseTimeSdvM",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV12responseTimeSdvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11PageLoadDTOV7messageSSvp",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV7messageSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV7messageSSvg",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV7messageSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV7messageSSvs",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV7messageSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11PageLoadDTOV7messageSSvM",
+                "mangledName": "$s14PTNetFramework11PageLoadDTOV7messageSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:status:statusCode:responseTime:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11PageLoadDTOV4data6status0G4Code12responseTime7messageACSS_SSSiSdSStcfc",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV4data6status0G4Code12responseTime7messageACSS_SSSiSdSStcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11PageLoadDTOVACycfc",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOVACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11PageLoadDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework11PageLoadDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14PTNetFramework11PageLoadDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14PTNetFramework11PageLoadDTOV",
+        "mangledName": "$s14PTNetFramework11PageLoadDTOV",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortScanProtocol",
+        "printedName": "PortScanProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "portScan",
+            "printedName": "portScan(address:port:timeOut:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16PortScanProtocolP04portD07address0F07timeOutS2S_S2itF",
+            "mangledName": "$s14PTNetFramework16PortScanProtocolP04portD07address0F07timeOutS2S_S2itF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.PortScanProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.PortScanProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework16PortScanProtocolP",
+        "mangledName": "$s14PTNetFramework16PortScanProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortScan",
+        "printedName": "PortScan",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(portScanService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortScan",
+                "printedName": "PTNetFramework.PortScan",
+                "usr": "s:14PTNetFramework8PortScanC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PortScanServiceProtocol",
+                "printedName": "any PTNetFramework.PortScanServiceProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:14PTNetFramework23PortScanServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework8PortScanC04portD7ServiceAcA0cdF8Protocol_p_tcfc",
+            "mangledName": "$s14PTNetFramework8PortScanC04portD7ServiceAcA0cdF8Protocol_p_tcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "portScan",
+            "printedName": "portScan(address:port:timeOut:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8PortScanC04portD07address0E07timeOutS2S_S2itF",
+            "mangledName": "$s14PTNetFramework8PortScanC04portD07address0E07timeOutS2S_S2itF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework8PortScanC",
+        "mangledName": "$s14PTNetFramework8PortScanC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PortScanProtocol",
+            "printedName": "PortScanProtocol",
+            "usr": "s:14PTNetFramework16PortScanProtocolP",
+            "mangledName": "$s14PTNetFramework16PortScanProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IpConfigService",
+        "printedName": "IpConfigService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IpConfigService",
+                "printedName": "PTNetFramework.IpConfigService",
+                "usr": "s:14PTNetFramework15IpConfigServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework15IpConfigServiceCACycfc",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceCACycfc",
+            "moduleName": "PTNetFramework",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getIPAddress",
+            "printedName": "getIPAddress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC12getIPAddressSSyF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC12getIPAddressSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSubnetMask",
+            "printedName": "getSubnetMask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC13getSubnetMaskSSyF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC13getSubnetMaskSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDefaultGateway",
+            "printedName": "getDefaultGateway(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC17getDefaultGateway10completionyySSc_tF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC17getDefaultGateway10completionyySSc_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWiFiSSID",
+            "printedName": "getWiFiSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC11getWiFiSSIDSSyF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC11getWiFiSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWiFiBSSID",
+            "printedName": "getWiFiBSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC12getWiFiBSSIDSSyF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC12getWiFiBSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalIpAddress",
+            "printedName": "getExternalIpAddress(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15IpConfigServiceC011getExternalC7Address10completionyySSc_tF",
+            "mangledName": "$s14PTNetFramework15IpConfigServiceC011getExternalC7Address10completionyySSc_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework15IpConfigServiceC",
+        "mangledName": "$s14PTNetFramework15IpConfigServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NsLookupProtocol",
+        "printedName": "NsLookupProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(domainName:dnsServer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16NsLookupProtocolP7execute10domainName9dnsServerSaySSGSS_SStF",
+            "mangledName": "$s14PTNetFramework16NsLookupProtocolP7execute10domainName9dnsServerSaySSGSS_SStF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.NsLookupProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.NsLookupProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework16NsLookupProtocolP",
+        "mangledName": "$s14PTNetFramework16NsLookupProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NsLookup",
+        "printedName": "NsLookup",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NsLookup",
+                "printedName": "PTNetFramework.NsLookup",
+                "usr": "s:14PTNetFramework8NsLookupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework8NsLookupCACycfc",
+            "mangledName": "$s14PTNetFramework8NsLookupCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(domainName:dnsServer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8NsLookupC7execute10domainName9dnsServerSaySSGSS_SStF",
+            "mangledName": "$s14PTNetFramework8NsLookupC7execute10domainName9dnsServerSaySSGSS_SStF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework8NsLookupC",
+        "mangledName": "$s14PTNetFramework8NsLookupC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NsLookupProtocol",
+            "printedName": "NsLookupProtocol",
+            "usr": "s:14PTNetFramework16NsLookupProtocolP",
+            "mangledName": "$s14PTNetFramework16NsLookupProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetDiagnosis",
+        "printedName": "NetDiagnosis",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DnsLookUpServiceProtocol",
+        "printedName": "DnsLookUpServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(domain:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework24DnsLookUpServiceProtocolP7execute6domain10completionySS_ySaySSGctF",
+            "mangledName": "$s14PTNetFramework24DnsLookUpServiceProtocolP7execute6domain10completionySS_ySaySSGctF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.DnsLookUpServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.DnsLookUpServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework24DnsLookUpServiceProtocolP",
+        "mangledName": "$s14PTNetFramework24DnsLookUpServiceProtocolP",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DnsLookUpService",
+        "printedName": "DnsLookUpService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DnsLookUpService",
+                "printedName": "PTNetFramework.DnsLookUpService",
+                "usr": "s:14PTNetFramework16DnsLookUpServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework16DnsLookUpServiceCACycfc",
+            "mangledName": "$s14PTNetFramework16DnsLookUpServiceCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(domain:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16DnsLookUpServiceC7execute6domain10completionySS_ySaySSGctF",
+            "mangledName": "$s14PTNetFramework16DnsLookUpServiceC7execute6domain10completionySS_ySaySSGctF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework16DnsLookUpServiceC",
+        "mangledName": "$s14PTNetFramework16DnsLookUpServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DnsLookUpServiceProtocol",
+            "printedName": "DnsLookUpServiceProtocol",
+            "usr": "s:14PTNetFramework24DnsLookUpServiceProtocolP",
+            "mangledName": "$s14PTNetFramework24DnsLookUpServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "NetDiagnosis",
+        "printedName": "NetDiagnosis",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TracerouteServiceProtocol",
+        "printedName": "TracerouteServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:traceHopCallBack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.TraceHopDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TraceHopDTO",
+                    "printedName": "PTNetFramework.TraceHopDTO",
+                    "usr": "s:14PTNetFramework11TraceHopDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework25TracerouteServiceProtocolP7execute7address16traceHopCallBackySS_yAA05TraceI3DTOVctF",
+            "mangledName": "$s14PTNetFramework25TracerouteServiceProtocolP7execute7address16traceHopCallBackySS_yAA05TraceI3DTOVctF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.TracerouteServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.TracerouteServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework25TracerouteServiceProtocolP",
+        "mangledName": "$s14PTNetFramework25TracerouteServiceProtocolP",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TracerouteService",
+        "printedName": "TracerouteService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dnsLookUpService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TracerouteService",
+                "printedName": "PTNetFramework.TracerouteService",
+                "usr": "s:14PTNetFramework17TracerouteServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DnsLookUpServiceProtocol",
+                "printedName": "any PTNetFramework.DnsLookUpServiceProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:14PTNetFramework24DnsLookUpServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework17TracerouteServiceC09dnsLookUpD0AcA03DnsfgD8Protocol_p_tcfc",
+            "mangledName": "$s14PTNetFramework17TracerouteServiceC09dnsLookUpD0AcA03DnsfgD8Protocol_p_tcfc",
+            "moduleName": "PTNetFramework",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:traceHopCallBack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.TraceHopDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TraceHopDTO",
+                    "printedName": "PTNetFramework.TraceHopDTO",
+                    "usr": "s:14PTNetFramework11TraceHopDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework17TracerouteServiceC7execute7address16traceHopCallBackySS_yAA05TraceH3DTOVctF",
+            "mangledName": "$s14PTNetFramework17TracerouteServiceC7execute7address16traceHopCallBackySS_yAA05TraceH3DTOVctF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework17TracerouteServiceC",
+        "mangledName": "$s14PTNetFramework17TracerouteServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TracerouteServiceProtocol",
+            "printedName": "TracerouteServiceProtocol",
+            "usr": "s:14PTNetFramework25TracerouteServiceProtocolP",
+            "mangledName": "$s14PTNetFramework25TracerouteServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TraceHopDTO",
+        "printedName": "TraceHopDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hopNumber",
+            "printedName": "hopNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11TraceHopDTOV9hopNumberSivp",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV9hopNumberSivp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9hopNumberSivg",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9hopNumberSivg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9hopNumberSivs",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9hopNumberSivs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9hopNumberSivM",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9hopNumberSivM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11TraceHopDTOV6domainSSvp",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV6domainSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6domainSSvg",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6domainSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6domainSSvs",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6domainSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6domainSSvM",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6domainSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ipAddress",
+            "printedName": "ipAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11TraceHopDTOV9ipAddressSSvp",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV9ipAddressSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9ipAddressSSvg",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9ipAddressSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9ipAddressSSvs",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9ipAddressSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV9ipAddressSSvM",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV9ipAddressSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11TraceHopDTOV4timeSdvp",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV4timeSdvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV4timeSdvg",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV4timeSdvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV4timeSdvs",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV4timeSdvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV4timeSdvM",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV4timeSdvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11TraceHopDTOV6statusSbvp",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV6statusSbvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6statusSbvg",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6statusSbvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6statusSbvs",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6statusSbvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11TraceHopDTOV6statusSbvM",
+                "mangledName": "$s14PTNetFramework11TraceHopDTOV6statusSbvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hopNumber:domain:ipAddress:time:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TraceHopDTO",
+                "printedName": "PTNetFramework.TraceHopDTO",
+                "usr": "s:14PTNetFramework11TraceHopDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11TraceHopDTOV9hopNumber6domain9ipAddress4time6statusACSi_S2SSdSbtcfc",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV9hopNumber6domain9ipAddress4time6statusACSi_S2SSdSbtcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TraceHopDTO",
+                "printedName": "PTNetFramework.TraceHopDTO",
+                "usr": "s:14PTNetFramework11TraceHopDTOV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11TraceHopDTOVACycfc",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOVACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TraceHopDTO",
+                "printedName": "PTNetFramework.TraceHopDTO",
+                "usr": "s:14PTNetFramework11TraceHopDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11TraceHopDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework11TraceHopDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14PTNetFramework11TraceHopDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14PTNetFramework11TraceHopDTOV",
+        "mangledName": "$s14PTNetFramework11TraceHopDTOV",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortScanServiceProtocol",
+        "printedName": "PortScanServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:port:timeOut:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework23PortScanServiceProtocolP7execute7address4port7timeOutS2S_SiSdtF",
+            "mangledName": "$s14PTNetFramework23PortScanServiceProtocolP7execute7address4port7timeOutS2S_SiSdtF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.PortScanServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.PortScanServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework23PortScanServiceProtocolP",
+        "mangledName": "$s14PTNetFramework23PortScanServiceProtocolP",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortScanService",
+        "printedName": "PortScanService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortScanService",
+                "printedName": "PTNetFramework.PortScanService",
+                "usr": "s:14PTNetFramework15PortScanServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework15PortScanServiceCACycfc",
+            "mangledName": "$s14PTNetFramework15PortScanServiceCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:port:timeOut:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15PortScanServiceC7execute7address4port7timeOutS2S_SiSdtF",
+            "mangledName": "$s14PTNetFramework15PortScanServiceC7execute7address4port7timeOutS2S_SiSdtF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework15PortScanServiceC",
+        "mangledName": "$s14PTNetFramework15PortScanServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PortScanServiceProtocol",
+            "printedName": "PortScanServiceProtocol",
+            "usr": "s:14PTNetFramework23PortScanServiceProtocolP",
+            "mangledName": "$s14PTNetFramework23PortScanServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortDTO",
+        "printedName": "PortDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PortDTOV7addressSSvp",
+            "mangledName": "$s14PTNetFramework7PortDTOV7addressSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV7addressSSvg",
+                "mangledName": "$s14PTNetFramework7PortDTOV7addressSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV7addressSSvs",
+                "mangledName": "$s14PTNetFramework7PortDTOV7addressSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV7addressSSvM",
+                "mangledName": "$s14PTNetFramework7PortDTOV7addressSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "port",
+            "printedName": "port",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PortDTOV4portSivp",
+            "mangledName": "$s14PTNetFramework7PortDTOV4portSivp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV4portSivg",
+                "mangledName": "$s14PTNetFramework7PortDTOV4portSivg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV4portSivs",
+                "mangledName": "$s14PTNetFramework7PortDTOV4portSivs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV4portSivM",
+                "mangledName": "$s14PTNetFramework7PortDTOV4portSivM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PortDTOV6statusSbvp",
+            "mangledName": "$s14PTNetFramework7PortDTOV6statusSbvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV6statusSbvg",
+                "mangledName": "$s14PTNetFramework7PortDTOV6statusSbvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV6statusSbvs",
+                "mangledName": "$s14PTNetFramework7PortDTOV6statusSbvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PortDTOV6statusSbvM",
+                "mangledName": "$s14PTNetFramework7PortDTOV6statusSbvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortDTO",
+                "printedName": "PTNetFramework.PortDTO",
+                "usr": "s:14PTNetFramework7PortDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PortDTOV7address4port6statusACSS_SiSbtcfc",
+            "mangledName": "$s14PTNetFramework7PortDTOV7address4port6statusACSS_SiSbtcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortDTO",
+                "printedName": "PTNetFramework.PortDTO",
+                "usr": "s:14PTNetFramework7PortDTOV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PortDTOVACycfc",
+            "mangledName": "$s14PTNetFramework7PortDTOVACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortDTO",
+                "printedName": "PTNetFramework.PortDTO",
+                "usr": "s:14PTNetFramework7PortDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PortDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14PTNetFramework7PortDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework7PortDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14PTNetFramework7PortDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14PTNetFramework7PortDTOV",
+        "mangledName": "$s14PTNetFramework7PortDTOV",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PingDTO",
+        "printedName": "PingDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PingDTOV7addressSSvp",
+            "mangledName": "$s14PTNetFramework7PingDTOV7addressSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV7addressSSvg",
+                "mangledName": "$s14PTNetFramework7PingDTOV7addressSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV7addressSSvs",
+                "mangledName": "$s14PTNetFramework7PingDTOV7addressSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV7addressSSvM",
+                "mangledName": "$s14PTNetFramework7PingDTOV7addressSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ip",
+            "printedName": "ip",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PingDTOV2ipSSvp",
+            "mangledName": "$s14PTNetFramework7PingDTOV2ipSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV2ipSSvg",
+                "mangledName": "$s14PTNetFramework7PingDTOV2ipSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV2ipSSvs",
+                "mangledName": "$s14PTNetFramework7PingDTOV2ipSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV2ipSSvM",
+                "mangledName": "$s14PTNetFramework7PingDTOV2ipSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework7PingDTOV4timeSdvp",
+            "mangledName": "$s14PTNetFramework7PingDTOV4timeSdvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV4timeSdvg",
+                "mangledName": "$s14PTNetFramework7PingDTOV4timeSdvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV4timeSdvs",
+                "mangledName": "$s14PTNetFramework7PingDTOV4timeSdvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework7PingDTOV4timeSdvM",
+                "mangledName": "$s14PTNetFramework7PingDTOV4timeSdvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:ip:time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingDTO",
+                "printedName": "PTNetFramework.PingDTO",
+                "usr": "s:14PTNetFramework7PingDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PingDTOV7address2ip4timeACSS_SSSdtcfc",
+            "mangledName": "$s14PTNetFramework7PingDTOV7address2ip4timeACSS_SSSdtcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingDTO",
+                "printedName": "PTNetFramework.PingDTO",
+                "usr": "s:14PTNetFramework7PingDTOV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PingDTOVACycfc",
+            "mangledName": "$s14PTNetFramework7PingDTOVACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingDTO",
+                "printedName": "PTNetFramework.PingDTO",
+                "usr": "s:14PTNetFramework7PingDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework7PingDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14PTNetFramework7PingDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework7PingDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14PTNetFramework7PingDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14PTNetFramework7PingDTOV",
+        "mangledName": "$s14PTNetFramework7PingDTOV",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IpConfigDTO",
+        "printedName": "IpConfigDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ipAddress",
+            "printedName": "ipAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV9ipAddressSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV9ipAddressSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9ipAddressSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9ipAddressSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9ipAddressSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9ipAddressSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9ipAddressSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9ipAddressSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subnetMask",
+            "printedName": "subnetMask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV10subnetMaskSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV10subnetMaskSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV10subnetMaskSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV10subnetMaskSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV10subnetMaskSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV10subnetMaskSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV10subnetMaskSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV10subnetMaskSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gateway",
+            "printedName": "gateway",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV7gatewaySSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV7gatewaySSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV7gatewaySSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV7gatewaySSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV7gatewaySSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV7gatewaySSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV7gatewaySSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV7gatewaySSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceMAC",
+            "printedName": "deviceMAC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV9deviceMACSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV9deviceMACSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9deviceMACSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9deviceMACSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9deviceMACSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9deviceMACSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV9deviceMACSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV9deviceMACSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bssid",
+            "printedName": "bssid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV5bssidSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV5bssidSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV5bssidSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV5bssidSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV5bssidSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV5bssidSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV5bssidSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV5bssidSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ssid",
+            "printedName": "ssid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV4ssidSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV4ssidSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV4ssidSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV4ssidSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV4ssidSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV4ssidSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV4ssidSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV4ssidSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "externalIpAddress",
+            "printedName": "externalIpAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework11IpConfigDTOV08externalC7AddressSSvp",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV08externalC7AddressSSvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV08externalC7AddressSSvg",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV08externalC7AddressSSvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV08externalC7AddressSSvs",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV08externalC7AddressSSvs",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework11IpConfigDTOV08externalC7AddressSSvM",
+                "mangledName": "$s14PTNetFramework11IpConfigDTOV08externalC7AddressSSvM",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ipAddress:subnetMask:gateway:deviceMAC:bssid:ssid:externalIpAddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IpConfigDTO",
+                "printedName": "PTNetFramework.IpConfigDTO",
+                "usr": "s:14PTNetFramework11IpConfigDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11IpConfigDTOV9ipAddress10subnetMask7gateway9deviceMAC5bssid4ssid08externalcG0ACSS_S6Stcfc",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV9ipAddress10subnetMask7gateway9deviceMAC5bssid4ssid08externalcG0ACSS_S6Stcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IpConfigDTO",
+                "printedName": "PTNetFramework.IpConfigDTO",
+                "usr": "s:14PTNetFramework11IpConfigDTOV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11IpConfigDTOVACycfc",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOVACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IpConfigDTO",
+                "printedName": "PTNetFramework.IpConfigDTO",
+                "usr": "s:14PTNetFramework11IpConfigDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11IpConfigDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework11IpConfigDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14PTNetFramework11IpConfigDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PTNetFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14PTNetFramework11IpConfigDTOV",
+        "mangledName": "$s14PTNetFramework11IpConfigDTOV",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IpConfigProtocol",
+        "printedName": "IpConfigProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getIpAddress",
+            "printedName": "getIpAddress(useIpv4:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP03getC7Address7useIpv4SSSb_tF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP03getC7Address7useIpv4SSSb_tF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSubnetMask",
+            "printedName": "getSubnetMask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP13getSubnetMaskSSyF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP13getSubnetMaskSSyF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGateway",
+            "printedName": "getGateway(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP10getGateway10completionyySSc_tF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP10getGateway10completionyySSc_tF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceMAC",
+            "printedName": "getDeviceMAC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP12getDeviceMACSSyF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP12getDeviceMACSSyF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBSSID",
+            "printedName": "getBSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP8getBSSIDSSyF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP8getBSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSSID",
+            "printedName": "getSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP7getSSIDSSyF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP7getSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalIpAddress",
+            "printedName": "getExternalIpAddress(useIpv4:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP011getExternalC7Address7useIpv410completionySb_ySSctF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP011getExternalC7Address7useIpv410completionySb_ySSctF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIpConfigInfo",
+            "printedName": "getIpConfigInfo(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.IpConfigDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IpConfigDTO",
+                    "printedName": "PTNetFramework.IpConfigDTO",
+                    "usr": "s:14PTNetFramework11IpConfigDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP03getcD4Info10completionyyAA0cD3DTOVc_tF",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP03getcD4Info10completionyyAA0cD3DTOVc_tF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.IpConfigProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.IpConfigProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework16IpConfigProtocolP",
+        "mangledName": "$s14PTNetFramework16IpConfigProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IpConfig",
+        "printedName": "IpConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IpConfig",
+                "printedName": "PTNetFramework.IpConfig",
+                "usr": "s:14PTNetFramework8IpConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework8IpConfigCACycfc",
+            "mangledName": "$s14PTNetFramework8IpConfigCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getIpAddress",
+            "printedName": "getIpAddress(useIpv4:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC03getC7Address7useIpv4SSSb_tF",
+            "mangledName": "$s14PTNetFramework8IpConfigC03getC7Address7useIpv4SSSb_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSubnetMask",
+            "printedName": "getSubnetMask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC13getSubnetMaskSSyF",
+            "mangledName": "$s14PTNetFramework8IpConfigC13getSubnetMaskSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGateway",
+            "printedName": "getGateway(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC10getGateway10completionyySSc_tF",
+            "mangledName": "$s14PTNetFramework8IpConfigC10getGateway10completionyySSc_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceMAC",
+            "printedName": "getDeviceMAC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC12getDeviceMACSSyF",
+            "mangledName": "$s14PTNetFramework8IpConfigC12getDeviceMACSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBSSID",
+            "printedName": "getBSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC8getBSSIDSSyF",
+            "mangledName": "$s14PTNetFramework8IpConfigC8getBSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSSID",
+            "printedName": "getSSID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC7getSSIDSSyF",
+            "mangledName": "$s14PTNetFramework8IpConfigC7getSSIDSSyF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalIpAddress",
+            "printedName": "getExternalIpAddress(useIpv4:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC011getExternalC7Address7useIpv410completionySb_ySSctF",
+            "mangledName": "$s14PTNetFramework8IpConfigC011getExternalC7Address7useIpv410completionySb_ySSctF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIpConfigInfo",
+            "printedName": "getIpConfigInfo(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.IpConfigDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IpConfigDTO",
+                    "printedName": "PTNetFramework.IpConfigDTO",
+                    "usr": "s:14PTNetFramework11IpConfigDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework8IpConfigC03getcD4Info10completionyyAA0cD3DTOVc_tF",
+            "mangledName": "$s14PTNetFramework8IpConfigC03getcD4Info10completionyyAA0cD3DTOVc_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework8IpConfigC",
+        "mangledName": "$s14PTNetFramework8IpConfigC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IpConfigProtocol",
+            "printedName": "IpConfigProtocol",
+            "usr": "s:14PTNetFramework16IpConfigProtocolP",
+            "mangledName": "$s14PTNetFramework16IpConfigProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TracerouteProtocol",
+        "printedName": "TracerouteProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trace",
+            "printedName": "trace(host:ttl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TraceHopDTO",
+                "printedName": "PTNetFramework.TraceHopDTO",
+                "usr": "s:14PTNetFramework11TraceHopDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework18TracerouteProtocolP5trace4host3ttlAA11TraceHopDTOVSS_SitF",
+            "mangledName": "$s14PTNetFramework18TracerouteProtocolP5trace4host3ttlAA11TraceHopDTOVSS_SitF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.TracerouteProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.TracerouteProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework18TracerouteProtocolP",
+        "mangledName": "$s14PTNetFramework18TracerouteProtocolP",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Traceroute",
+        "printedName": "Traceroute",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Traceroute",
+                "printedName": "PTNetFramework.Traceroute",
+                "usr": "s:14PTNetFramework10TracerouteC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework10TracerouteCACycfc",
+            "mangledName": "$s14PTNetFramework10TracerouteCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "trace",
+            "printedName": "trace(host:ttl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TraceHopDTO",
+                "printedName": "PTNetFramework.TraceHopDTO",
+                "usr": "s:14PTNetFramework11TraceHopDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework10TracerouteC5trace4host3ttlAA11TraceHopDTOVSS_SitF",
+            "mangledName": "$s14PTNetFramework10TracerouteC5trace4host3ttlAA11TraceHopDTOVSS_SitF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework10TracerouteC",
+        "mangledName": "$s14PTNetFramework10TracerouteC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TracerouteProtocol",
+            "printedName": "TracerouteProtocol",
+            "usr": "s:14PTNetFramework18TracerouteProtocolP",
+            "mangledName": "$s14PTNetFramework18TracerouteProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PTNetFramework",
+        "printedName": "PTNetFramework",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LibraryHandler",
+        "printedName": "LibraryHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LibraryHandler",
+                "printedName": "PTNetFramework.LibraryHandler",
+                "usr": "s:14PTNetFramework14LibraryHandlerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework14LibraryHandlerCACycfc",
+            "mangledName": "$s14PTNetFramework14LibraryHandlerCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonEncoder",
+            "printedName": "jsonEncoder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONEncoder",
+                "printedName": "Foundation.JSONEncoder",
+                "usr": "s:10Foundation11JSONEncoderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PTNetFramework14LibraryHandlerC11jsonEncoder10Foundation11JSONEncoderCvp",
+            "mangledName": "$s14PTNetFramework14LibraryHandlerC11jsonEncoder10Foundation11JSONEncoderCvp",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONEncoder",
+                    "printedName": "Foundation.JSONEncoder",
+                    "usr": "s:10Foundation11JSONEncoderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PTNetFramework14LibraryHandlerC11jsonEncoder10Foundation11JSONEncoderCvg",
+                "mangledName": "$s14PTNetFramework14LibraryHandlerC11jsonEncoder10Foundation11JSONEncoderCvg",
+                "moduleName": "PTNetFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getWifiInfo",
+            "printedName": "getWifiInfo(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework14LibraryHandlerC11getWifiInfo10completionyySSc_tF",
+            "mangledName": "$s14PTNetFramework14LibraryHandlerC11getWifiInfo10completionyySSc_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPingResult",
+            "printedName": "getPingResult(address:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework14LibraryHandlerC13getPingResult7address10completionySS_ySSctF",
+            "mangledName": "$s14PTNetFramework14LibraryHandlerC13getPingResult7address10completionySS_ySSctF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework14LibraryHandlerC",
+        "mangledName": "$s14PTNetFramework14LibraryHandlerC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PageLoadService",
+        "printedName": "PageLoadService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadService",
+                "printedName": "PTNetFramework.PageLoadService",
+                "usr": "s:14PTNetFramework15PageLoadServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework15PageLoadServiceCACycfc",
+            "mangledName": "$s14PTNetFramework15PageLoadServiceCACycfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "pageLoadTimer",
+            "printedName": "pageLoadTimer(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PageLoadDTO",
+                "printedName": "PTNetFramework.PageLoadDTO",
+                "usr": "s:14PTNetFramework11PageLoadDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework15PageLoadServiceC04pageD5Timer7addressAA0cD3DTOVSS_tF",
+            "mangledName": "$s14PTNetFramework15PageLoadServiceC04pageD5Timer7addressAA0cD3DTOVSS_tF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework15PageLoadServiceC",
+        "mangledName": "$s14PTNetFramework15PageLoadServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "NetDiagnosis",
+        "printedName": "NetDiagnosis",
+        "declKind": "Import",
+        "moduleName": "PTNetFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PingServiceProtocol",
+        "printedName": "PingServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.PingDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PingDTO",
+                    "printedName": "PTNetFramework.PingDTO",
+                    "usr": "s:14PTNetFramework7PingDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework19PingServiceProtocolP7execute7address10completionySS_yAA0C3DTOVctF",
+            "mangledName": "$s14PTNetFramework19PingServiceProtocolP7execute7address10completionySS_yAA0C3DTOVctF",
+            "moduleName": "PTNetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : PTNetFramework.PingServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PTNetFramework.PingServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PTNetFramework19PingServiceProtocolP",
+        "mangledName": "$s14PTNetFramework19PingServiceProtocolP",
+        "moduleName": "PTNetFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PingService",
+        "printedName": "PingService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dnsLookUpService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PingService",
+                "printedName": "PTNetFramework.PingService",
+                "usr": "s:14PTNetFramework11PingServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DnsLookUpServiceProtocol",
+                "printedName": "any PTNetFramework.DnsLookUpServiceProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:14PTNetFramework24DnsLookUpServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PTNetFramework11PingServiceC09dnsLookUpD0AcA03DnsfgD8Protocol_p_tcfc",
+            "mangledName": "$s14PTNetFramework11PingServiceC09dnsLookUpD0AcA03DnsfgD8Protocol_p_tcfc",
+            "moduleName": "PTNetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(address:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PTNetFramework.PingDTO) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PingDTO",
+                    "printedName": "PTNetFramework.PingDTO",
+                    "usr": "s:14PTNetFramework7PingDTOV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PTNetFramework11PingServiceC7execute7address10completionySS_yAA0C3DTOVctF",
+            "mangledName": "$s14PTNetFramework11PingServiceC7execute7address10completionySS_yAA0C3DTOVctF",
+            "moduleName": "PTNetFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PTNetFramework11PingServiceC",
+        "mangledName": "$s14PTNetFramework11PingServiceC",
+        "moduleName": "PTNetFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PingServiceProtocol",
+            "printedName": "PingServiceProtocol",
+            "usr": "s:14PTNetFramework19PingServiceProtocolP",
+            "mangledName": "$s14PTNetFramework19PingServiceProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyenhuutuong\/Desktop\/Nghia_Folder\/SwiftWorkspace\/PTNetFramework\/PTNetFramework\/services\/PortScanService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nguyenhuutuong\/Desktop\/Nghia_Folder\/SwiftWorkspace\/PTNetFramework\/PTNetFramework\/services\/PortScanService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenhuutuong\/Desktop\/Nghia_Folder\/SwiftWorkspace\/PTNetFramework\/PTNetFramework\/services\/PortScanService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

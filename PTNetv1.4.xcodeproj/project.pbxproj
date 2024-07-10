@@ -3,22 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570407512C2963C800C39289 /* PTNetv1_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407502C2963C800C39289 /* PTNetv1_4App.swift */; };
-		570407532C2963C800C39289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407522C2963C800C39289 /* ContentView.swift */; };
 		570407552C2963C900C39289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570407542C2963C900C39289 /* Assets.xcassets */; };
 		570407582C2963C900C39289 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570407572C2963C900C39289 /* Preview Assets.xcassets */; };
+		570407632C29649100C39289 /* NetDiagnosis in Frameworks */ = {isa = PBXBuildFile; productRef = 570407622C29649100C39289 /* NetDiagnosis */; };
+		570407652C29649100C39289 /* RxNetDiagnosis in Frameworks */ = {isa = PBXBuildFile; productRef = 570407642C29649100C39289 /* RxNetDiagnosis */; };
+		570407672C2964C700C39289 /* PingDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407662C2964C700C39289 /* PingDTO.swift */; };
+		570407692C2964D900C39289 /* TraceHopDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407682C2964D900C39289 /* TraceHopDTO.swift */; };
+		5704076B2C2964F200C39289 /* PageLoadDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704076A2C2964F200C39289 /* PageLoadDTO.swift */; };
+		5704076D2C29650A00C39289 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704076C2C29650A00C39289 /* LocationManager.swift */; };
+		5704076F2C29651E00C39289 /* UiApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704076E2C29651E00C39289 /* UiApplication.swift */; };
+		570407712C29653600C39289 /* DnsLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407702C29653600C39289 /* DnsLookupService.swift */; };
+		570407732C29655000C39289 /* IpConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407722C29655000C39289 /* IpConfigService.swift */; };
+		570407752C29656400C39289 /* PageLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407742C29656400C39289 /* PageLoadService.swift */; };
+		570407772C29657800C39289 /* PingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407762C29657800C39289 /* PingService.swift */; };
+		570407792C29658B00C39289 /* PortScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570407782C29658B00C39289 /* PortScanService.swift */; };
+		5704077B2C29659C00C39289 /* TracerouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704077A2C29659C00C39289 /* TracerouteService.swift */; };
+		5704077D2C2965B400C39289 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704077C2C2965B400C39289 /* MainApp.swift */; };
+		57C4262D2C35F5D6009FE37A /* PTNetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C4262C2C35F5D6009FE37A /* PTNetFramework.framework */; };
+		57C4262E2C35F5D6009FE37A /* PTNetFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57C4262C2C35F5D6009FE37A /* PTNetFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57C426212C35C9F1009FE37A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57C4262E2C35F5D6009FE37A /* PTNetFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5704074D2C2963C800C39289 /* PTNetv1.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTNetv1.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		570407502C2963C800C39289 /* PTNetv1_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTNetv1_4App.swift; sourceTree = "<group>"; };
-		570407522C2963C800C39289 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		570407542C2963C900C39289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570407572C2963C900C39289 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		570407662C2964C700C39289 /* PingDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingDTO.swift; sourceTree = "<group>"; };
+		570407682C2964D900C39289 /* TraceHopDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraceHopDTO.swift; sourceTree = "<group>"; };
+		5704076A2C2964F200C39289 /* PageLoadDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoadDTO.swift; sourceTree = "<group>"; };
+		5704076C2C29650A00C39289 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5704076E2C29651E00C39289 /* UiApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiApplication.swift; sourceTree = "<group>"; };
+		570407702C29653600C39289 /* DnsLookupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnsLookupService.swift; sourceTree = "<group>"; };
+		570407722C29655000C39289 /* IpConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpConfigService.swift; sourceTree = "<group>"; };
+		570407742C29656400C39289 /* PageLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoadService.swift; sourceTree = "<group>"; };
+		570407762C29657800C39289 /* PingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingService.swift; sourceTree = "<group>"; };
+		570407782C29658B00C39289 /* PortScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanService.swift; sourceTree = "<group>"; };
+		5704077A2C29659C00C39289 /* TracerouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracerouteService.swift; sourceTree = "<group>"; };
+		5704077C2C2965B400C39289 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		575019C82C325742007FCB43 /* PTNetv1-4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PTNetv1-4-Info.plist"; sourceTree = SOURCE_ROOT; };
+		57C4262C2C35F5D6009FE37A /* PTNetFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PTNetFramework.framework; path = Frameworks/PTNetFramework.framework; sourceTree = "<group>"; };
+		57CC6D512C32A72500A43ABB /* PTNetv1.4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PTNetv1.4.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C4262D2C35F5D6009FE37A /* PTNetFramework.framework in Frameworks */,
+				570407652C29649100C39289 /* RxNetDiagnosis in Frameworks */,
+				570407632C29649100C39289 /* NetDiagnosis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +81,7 @@
 			children = (
 				5704074F2C2963C800C39289 /* PTNetv1.4 */,
 				5704074E2C2963C800C39289 /* Products */,
+				57C4261C2C35C9DF009FE37A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +96,14 @@
 		5704074F2C2963C800C39289 /* PTNetv1.4 */ = {
 			isa = PBXGroup;
 			children = (
-				570407502C2963C800C39289 /* PTNetv1_4App.swift */,
-				570407522C2963C800C39289 /* ContentView.swift */,
+				57CC6D512C32A72500A43ABB /* PTNetv1.4.entitlements */,
+				575019C82C325742007FCB43 /* PTNetv1-4-Info.plist */,
+				570407602C29643C00C39289 /* services */,
+				5704075F2C29643500C39289 /* utils */,
+				5704075E2C29642D00C39289 /* dto */,
 				570407542C2963C900C39289 /* Assets.xcassets */,
 				570407562C2963C900C39289 /* Preview Content */,
+				5704077C2C2965B400C39289 /* MainApp.swift */,
 			);
 			path = PTNetv1.4;
 			sourceTree = "<group>";
@@ -67,6 +116,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5704075E2C29642D00C39289 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				570407662C2964C700C39289 /* PingDTO.swift */,
+				570407682C2964D900C39289 /* TraceHopDTO.swift */,
+				5704076A2C2964F200C39289 /* PageLoadDTO.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		5704075F2C29643500C39289 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5704076C2C29650A00C39289 /* LocationManager.swift */,
+				5704076E2C29651E00C39289 /* UiApplication.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		570407602C29643C00C39289 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				570407702C29653600C39289 /* DnsLookupService.swift */,
+				570407722C29655000C39289 /* IpConfigService.swift */,
+				570407742C29656400C39289 /* PageLoadService.swift */,
+				570407762C29657800C39289 /* PingService.swift */,
+				570407782C29658B00C39289 /* PortScanService.swift */,
+				5704077A2C29659C00C39289 /* TracerouteService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		57C4261C2C35C9DF009FE37A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C4262C2C35F5D6009FE37A /* PTNetFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +166,17 @@
 				570407492C2963C800C39289 /* Sources */,
 				5704074A2C2963C800C39289 /* Frameworks */,
 				5704074B2C2963C800C39289 /* Resources */,
+				57C426212C35C9F1009FE37A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PTNetv1.4;
+			packageProductDependencies = (
+				570407622C29649100C39289 /* NetDiagnosis */,
+				570407642C29649100C39289 /* RxNetDiagnosis */,
+			);
 			productName = PTNetv1.4;
 			productReference = 5704074D2C2963C800C39289 /* PTNetv1.4.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +205,9 @@
 				Base,
 			);
 			mainGroup = 570407442C2963C800C39289;
+			packageReferences = (
+				570407612C29649100C39289 /* XCLocalSwiftPackageReference "Frameworks/NetDiagnosis" */,
+			);
 			productRefGroup = 5704074E2C2963C800C39289 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +234,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570407532C2963C800C39289 /* ContentView.swift in Sources */,
-				570407512C2963C800C39289 /* PTNetv1_4App.swift in Sources */,
+				570407712C29653600C39289 /* DnsLookupService.swift in Sources */,
+				570407692C2964D900C39289 /* TraceHopDTO.swift in Sources */,
+				5704076D2C29650A00C39289 /* LocationManager.swift in Sources */,
+				570407672C2964C700C39289 /* PingDTO.swift in Sources */,
+				570407732C29655000C39289 /* IpConfigService.swift in Sources */,
+				570407752C29656400C39289 /* PageLoadService.swift in Sources */,
+				5704077B2C29659C00C39289 /* TracerouteService.swift in Sources */,
+				570407772C29657800C39289 /* PingService.swift in Sources */,
+				5704076F2C29651E00C39289 /* UiApplication.swift in Sources */,
+				5704076B2C2964F200C39289 /* PageLoadDTO.swift in Sources */,
+				5704077D2C2965B400C39289 /* MainApp.swift in Sources */,
+				570407792C29658B00C39289 /* PortScanService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,23 +376,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PTNetv1.4/PTNetv1.4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PTNetv1.4/Preview Content\"";
 				DEVELOPMENT_TEAM = 2B22MVT5PX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PTNetv1-4-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PT Net";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ftel.PTNetv1-4";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,23 +416,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PTNetv1.4/PTNetv1.4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PTNetv1.4/Preview Content\"";
 				DEVELOPMENT_TEAM = 2B22MVT5PX;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PTNetv1-4-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PT Net";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ftel.PTNetv1-4";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +473,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		570407612C29649100C39289 /* XCLocalSwiftPackageReference "Frameworks/NetDiagnosis" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Frameworks/NetDiagnosis;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		570407622C29649100C39289 /* NetDiagnosis */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetDiagnosis;
+		};
+		570407642C29649100C39289 /* RxNetDiagnosis */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RxNetDiagnosis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 570407452C2963C800C39289 /* Project object */;
 }
